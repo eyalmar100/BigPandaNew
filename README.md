@@ -1,10 +1,10 @@
 # BigPandaNew
 Prerequesitse :
-               win os
-               kafka server
-               zookeeper 
-               redis server
-               maven
+               win os,
+               kafka server,
+               zookeeper ,
+               redis server,
+               maven,
                jdk 1.8
                
   After installing/runiing the above , download the src ( mvn )
@@ -21,7 +21,7 @@ Prerequesitse :
    Producer:
    Kafka producer starts the 'black box data generator ' and connect to it via stream.
    It reads the output lines as input for it, and immediately procudes the lines to 3 topics .
-   I choose that in this simple application it just uses round robin algorithm.
+    in this simple application it just uses round robin algorithm.
   
   
   Consumers:
